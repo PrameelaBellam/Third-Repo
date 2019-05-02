@@ -4,6 +4,7 @@ class linSearch
     public static void Main()
     {
         Console.WriteLine("Enter Number of Elements you Want to Hold in the Array? ");
+        Console.WriteLine("hi");
         string s = Console.ReadLine();
         int x = Int32.Parse(s);
         int[] a = new int[x];
